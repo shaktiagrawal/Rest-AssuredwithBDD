@@ -1,0 +1,223 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-31T21:23:34.762Z",
+        "line": 10,
+        "name": "Get all employees data",
+        "description": "",
+        "id": "testing-a-dummy-api;get-all-employees-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1088377800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the baseURI is \"baseURI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baseURI\"",
+                  "offset": 15
+                }
+              ],
+              "location": "functions.stepDef.the_baseURI_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2427610200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the endpoint is \"endPoint\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"endPoint\"",
+                  "offset": 16
+                }
+              ],
+              "location": "functions.stepDef.the_endpoint_is(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1063392400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user sends a get request on \"employees\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"employees\"",
+                  "offset": 32
+                }
+              ],
+              "location": "functions.stepDef.the_user_sends_a_get_request_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3998400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "functions.stepDef.the_response_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135920900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "show the response data",
+            "match": {
+              "location": "functions.stepDef.show_the_response_data()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-31T21:23:39.658Z",
+        "line": 23,
+        "name": "Create new record in database",
+        "description": "",
+        "id": "testing-a-dummy-api;create-new-record-in-database;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the baseURI is \"baseURI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baseURI\"",
+                  "offset": 15
+                }
+              ],
+              "location": "functions.stepDef.the_baseURI_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 925470400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the endpoint is \"endPoint\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"endPoint\"",
+                  "offset": 16
+                }
+              ],
+              "location": "functions.stepDef.the_endpoint_is(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13009000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the following data:",
+            "match": {
+              "location": "functions.stepDef.the_following_data(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Shakti"
+                ]
+              },
+              {
+                "cells": [
+                  "salary",
+                  "15000"
+                ]
+              },
+              {
+                "cells": [
+                  "age",
+                  "24"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997428800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user sends a post request on \"create\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create\"",
+                  "offset": 33
+                }
+              ],
+              "location": "functions.stepDef.the_user_sends_a_post_request_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "functions.stepDef.the_response_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing a dummy API",
+    "description": "",
+    "id": "testing-a-dummy-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/tests.feature",
+    "tags": []
+  }
+]
