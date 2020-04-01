@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-03-31T21:23:34.762Z",
+        "start_timestamp": "2020-04-01T06:19:11.249Z",
         "line": 10,
         "name": "Get all employees data",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1088377800,
+              "duration": 1400196300,
               "status": "passed"
             },
             "line": 3,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 2427610200,
+              "duration": 2639484900,
               "status": "passed"
             },
             "line": 4,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 1063392400,
+              "duration": 943458200,
               "status": "passed"
             },
             "line": 5,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 3998400,
+              "duration": 998700,
               "status": "passed"
             },
             "line": 6,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 135920900,
+              "duration": 204883900,
               "status": "passed"
             },
             "line": 7,
@@ -98,7 +98,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-03-31T21:23:39.658Z",
+        "start_timestamp": "2020-04-01T06:19:16.641Z",
         "line": 23,
         "name": "Create new record in database",
         "description": "",
@@ -108,7 +108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 999400,
+              "duration": 1997000,
               "status": "passed"
             },
             "line": 13,
@@ -126,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 925470400,
+              "duration": 903482500,
               "status": "passed"
             },
             "line": 14,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 13009000,
+              "duration": 8995200,
               "status": "passed"
             },
             "line": 15,
@@ -176,7 +176,7 @@
           },
           {
             "result": {
-              "duration": 997428800,
+              "duration": 925470000,
               "status": "passed"
             },
             "line": 19,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 1002000,
+              "duration": 998000,
               "status": "passed"
             },
             "line": 20,
