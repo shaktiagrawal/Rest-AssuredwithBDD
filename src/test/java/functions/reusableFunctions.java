@@ -41,6 +41,7 @@ public class reusableFunctions {
 	void validateStatusCode(int expectedCode) {
 		System.out.println("Expecte Code : " + expectedCode);
 		System.out.println("Actual Code : " + resp.getStatusCode());
+		System.out.println();
 	}
 
 	private Object parse(String value) {
